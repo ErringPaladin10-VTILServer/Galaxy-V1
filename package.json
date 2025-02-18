@@ -1,0 +1,27 @@
+{
+  "name": "galaxy-v1",
+  "version": "1.0.0",
+  "description": "galaxy-v1",
+  "main": "bot.js",
+  "scripts": {
+      "start-dev": "node bot.js",
+      "start-prod": "pm2 start bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErringPaladin10-VTILServer/Galaxy-V1.git"
+  },
+  "author": "ErringPaladin10",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/ErringPaladin10-VTILServer/Galaxy-V1/issues"
+  },
+  "homepage": "https://github.com/ErringPaladin10-VTILServer/Galaxy-V1#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "pm2": "^5.4.3"
+  }
+}
