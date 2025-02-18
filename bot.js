@@ -1,35 +1,12 @@
 // @Bot Version 1
 // Procedurally coded bot in a true scripting format with a basic permission-based rank system for command authority
 //
-
 /*
-1)
-    Check `ls`
-    Should NOT see `Desktop`, `Documents`, `Downloads`, etc
-    If you DO see these folders
-        1.5) Use `cd Desktop`
- 
-2)
-    Use `nano bot.js` to create the file
-    Input the required source code
-    Then exit and save the file following the prompts at the bottom of the terminal
- 
-3)
-    Install the required modules:
-        `npm install discord.js`
-        `npm install express`
-        `npm install mysql`
-        `npm install dotenv`
-        `npm install pm2`
-    
-4)
-    Run the bot
-    `pm2 start bot.js`
-    
-5)
-    Monitor for errors
-    `pm2 monit`
+    1) npm i
+    2) Learn how to setup and use sql, Just use XAMPP: https://www.apachefriends.org
+    3) Learn how to setup a discord bot, Watch this playlist on youtube it's very good: https://www.youtube.com/watch?v=KZ3tIGHU314&list=PLpmb-7WxPhe0ZVpH9pxT5MtC4heqej8Es
 */
+
 require('dotenv').config();
 
 const { Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
