@@ -220,7 +220,7 @@ function setString(id, string) {
     });
 };
 
-// Command initialization
+// Commands
 
 createCommand("Ping", 0, ["ping"], "Pings you", function (message, speaker, channel) {
     channel.send({
@@ -260,7 +260,7 @@ createCommand("SetString", 3, ["setstring"], "Set $user's string to $message", a
     };
 });
 
-// Bot initialization
+// Bot
 
 const client = new Client({
     intents: [
@@ -280,7 +280,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', async function (req, res) {
-    res.send(`Galaxy V1: ${await getString(1341270334158012436n)}`);
+    res.send(`Galaxy V1: Hello!`);
 })
 
 app.listen(PORT)
