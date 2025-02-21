@@ -7,6 +7,9 @@
     3) Learn how to setup a discord bot, Watch this playlist on youtube it's very good: https://www.youtube.com/watch?v=KZ3tIGHU314&list=PLpmb-7WxPhe0ZVpH9pxT5MtC4heqej8Es
 */
 
+// This is a comment
+// ^ Ignore above ^
+
 require('dotenv').config();
 
 const { Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
